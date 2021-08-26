@@ -1,0 +1,27 @@
+{
+  "name": "webscrapping",
+  "version": "1.0.0",
+  "description": "Different webscrapping projects for training. I will try to create several APIs later.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomas7997/webscrapping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomas7997/webscrapping/issues"
+  },
+  "homepage": "https://github.com/Thomas7997/webscrapping#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "morgan": "^1.10.0",
+    "website-scraper": "^4.2.3"
+  }
+}
